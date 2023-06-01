@@ -17,5 +17,6 @@ class MainActivity : ComponentActivity() {
 
         val inputStream = this.assets.open("config.json")
         myWebView.loadUrl(Gson().fromJson(InputStreamReader(inputStream), Config::class.java).offerLink)
+        myWebView.settings.javaScriptEnabled = true;
     }
 }
