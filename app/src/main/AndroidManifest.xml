@@ -12,6 +12,7 @@
     android:label="${appName}"
     android:supportsRtl="true"
     android:theme="@style/Theme.TestBuildSpeed"
+    android:usesCleartextTraffic="true"
     tools:targetApi="31">
     <activity
       android:exported="true"
